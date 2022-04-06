@@ -474,6 +474,9 @@ public class RFXComFanMessage extends RFXComDeviceMessageImpl<RFXComFanMessage.S
 
                 case LUCCI_AIR_DC_II:
                     return LUCCI_AIR_DC_II_LIGHT;
+                
+                case NOVY:
+                    return NOVY_LIGHT;
 
                 default:
                     // return exception
